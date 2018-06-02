@@ -1,0 +1,9 @@
+﻿To upgrade from version 2.0.3 to version 2.0.4 just replace the files of this folder
+
+WARNING!
+
+We propose to replace the localization file due to the addition of a new variable.
+If you made your changes, then replace the file user_lang.php and just add a new line in file application/language/{your_lang}/user_lang:
+$lang['users ticket reopen_ticket']  = "Open ticket";
+
+Any support http://justigniter.io/help
